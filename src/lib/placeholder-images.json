@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "Abstract architecture",
+      "imageUrl": "https://images.unsplash.com/photo-1617761141732-d481912af1a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWJzdHJhY3QlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzcwNzI0NDIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract architecture"
+    },
+    {
+      "id": "2",
+      "description": "A winding road in the mountains",
+      "imageUrl": "https://images.unsplash.com/photo-1520962922320-2038eebab146?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3VudGFpbiUyMHJvYWR8ZW58MHx8fHwxNzcwNzcyODE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain road"
+    },
+    {
+      "id": "3",
+      "description": "A person looking at a neon sign",
+      "imageUrl": "https://images.unsplash.com/photo-1605101020792-e19a3687ba7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuZW9uJTIwc2lnbnxlbnwwfHx8fDE3NzA3NjI0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neon sign"
+    }
+  ]
+}

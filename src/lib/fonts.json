@@ -1,0 +1,26 @@
+{
+  "googleFonts": [
+    "Inter:wght@400;500;600;700",
+    "Source+Code+Pro",
+    "Roboto:ital,wght@0,400;0,700;1,400;1,700",
+    "Lato:ital,wght@0,400;0,700;1,400;1,700",
+    "Montserrat:ital,wght@0,400;0,700;1,400;1,700",
+    "Oswald:wght@400;700",
+    "Playfair+Display:ital,wght@0,400;0,700;1,400;1,700",
+    "Lora:ital,wght@0,400;0,700;1,400;1,700"
+  ],
+  "localFonts": [
+    {
+      "family": "Coolvetica",
+      "variants": [
+        { "weight": 400, "style": "normal", "url": "/fonts/coolvetica-rg.woff2" }
+      ]
+    },
+    {
+      "family": "Garet",
+      "variants": [
+        { "weight": 700, "style": "normal", "url": "/fonts/garet-heavy.woff2" }
+      ]
+    }
+  ]
+}

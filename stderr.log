@@ -1,0 +1,339 @@
+internal/modules/cjs/loader.js:258
+    throw e;
+    ^
+
+SyntaxError: Error parsing /home/mukysart/my-editor/package.json: Unexpected token : in JSON at position 307
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:245:20)
+    at readPackageScope (internal/modules/cjs/loader.js:270:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1010:17)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1) {
+  path: '/home/mukysart/my-editor/package.json'
+}
+internal/modules/cjs/loader.js:258
+    throw e;
+    ^
+
+SyntaxError: Error parsing /home/mukysart/my-editor/package.json: Unexpected token : in JSON at position 307
+    at parse (<anonymous>)
+    at readPackage (internal/modules/cjs/loader.js:245:20)
+    at readPackageScope (internal/modules/cjs/loader.js:270:19)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1010:17)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1) {
+  path: '/home/mukysart/my-editor/package.json'
+}
+internal/modules/cjs/loader.js:818
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/mukysart/my-editor/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:815:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:667:27)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/mukysart/my-editor/server.js:2:14)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/mukysart/my-editor/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/mukysart/my-editor/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/mukysart/my-editor/server.js:2:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/mukysart/my-editor/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.18.2
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module 'next'
+Require stack:
+- /home/mukysart/my-editor/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/home/mukysart/my-editor/server.js:2:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/mukysart/my-editor/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.18.2
+ ⚠ Installing TypeScript as it was not found while loading "next.config.ts".
+ ⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error
+node:internal/modules/cjs/loader:1077
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js
+- /home/mukysart/my-editor/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/require-hook.js:57:36
+    at Function.resolve (node:internal/modules/cjs/helpers:125:19)
+    at getTsConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js:62:32)
+    at transpileConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js:85:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js:1088:36)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:105:20)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js',
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js',
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js',
+    '/home/mukysart/my-editor/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.18.2
+ ⚠ Installing TypeScript as it was not found while loading "next.config.ts".
+ ⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error
+node:internal/modules/cjs/loader:1077
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js
+- /home/mukysart/my-editor/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/require-hook.js:57:36
+    at Function.resolve (node:internal/modules/cjs/helpers:125:19)
+    at getTsConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js:62:32)
+    at transpileConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js:85:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js:1088:36)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:105:20)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js',
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js',
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js',
+    '/home/mukysart/my-editor/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.18.2
+ ⚠ Installing TypeScript as it was not found while loading "next.config.ts".
+ ⨯ Failed to load next.config.ts, see more info here https://nextjs.org/docs/messages/next-config-error
+node:internal/modules/cjs/loader:1077
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module 'typescript'
+Require stack:
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js
+- /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js
+- /home/mukysart/my-editor/server.js
+- /usr/local/lsws/fcgi-bin/lsnode.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at /home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/require-hook.js:57:36
+    at Function.resolve (node:internal/modules/cjs/helpers:125:19)
+    at getTsConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js:62:32)
+    at transpileConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js:85:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async loadConfig (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js:1088:36)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:105:20)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/build/next-config-ts/transpile-config.js',
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/config.js',
+    '/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js',
+    '/home/mukysart/my-editor/server.js',
+    '/usr/local/lsws/fcgi-bin/lsnode.js'
+  ]
+}
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
+/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156
+            throw Object.defineProperty(new Error(`Could not find a production build in the '${opts.config.distDir}' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id`), "__NEXT_ERROR_CODE", {
+                                        ^
+
+Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
+    at setupFsCheck (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-utils/filesystem.js:156:41)
+    at async initialize (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/lib/router-server.js:112:23)
+    at async NextCustomServer.prepare (/home/mukysart/nodevenv/my-editor/18/lib/node_modules/next/dist/server/next.js:287:28)
+
+Node.js v18.18.2
