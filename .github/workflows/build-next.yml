@@ -25,14 +25,11 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Export static site
-        run: npm run export   # creates the out/ folder
-
+  
       - name: Check .next contents
         run: ls -la .next
 
-      - name: Check out/ contents
-        run: ls -la out
+    
 
       - name: Upload .next folder
         uses: actions/upload-artifact@v4
