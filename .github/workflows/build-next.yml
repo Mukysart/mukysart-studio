@@ -1,4 +1,4 @@
-name: Build Next.js and Upload Artifacts
+name: Build Next.js and Upload .next
 
 on:
   workflow_dispatch:
@@ -25,17 +25,14 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-  
-      - name: Check .next contents
+      - name: Verify .next exists
         run: ls -la .next
 
-    
+      - name: Zip .next folder
+        run: zip -r next-build.zip .next
 
-      - name: Upload .next folder
+      - name: Upload zipped artifact
         uses: actions/upload-artifact@v4
         with:
           name: next-build
-          path: ./.next
-
-    
-
+          path: next-build.zip
