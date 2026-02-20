@@ -1,4 +1,4 @@
-name: Build Next.js and Upload .next
+name: Build Next.js and Upload Static Export
 
 on:
   workflow_dispatch:
@@ -25,14 +25,20 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Verify .next exists
-        run: ls -la .next
+      - name: Export static site
+        run: npm run export
 
-      - name: Zip .next folder
-        run: zip -r next-build.zip .next
+      - name: Verify out folder exists
+        run: ls -la out
+
+      - name: Zip out folder
+        run: zip -r static-export.zip out
 
       - name: Upload zipped artifact
         uses: actions/upload-artifact@v4
         with:
-          name: next-build
-          path: next-build.zip
+          name: static-export
+          path: static-export.zip
+
+      - name: Clean up zip file
+        run: rm static-export.zip
