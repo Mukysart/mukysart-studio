@@ -9,7 +9,6 @@
     "build": "NODE_ENV=production NODE_OPTIONS='--max-old-space-size=512' next build",
     "start": "node server.js",
     "lint": "next lint",
-    "export": "next export",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
