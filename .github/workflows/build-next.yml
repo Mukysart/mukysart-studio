@@ -1,4 +1,4 @@
-name: Build Next.js and Upload .next
+name: Build Next.js and Upload Artifacts
 
 on:
   workflow_dispatch:
@@ -25,11 +25,24 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: List files after build (including hidden)
-        run: ls -a
+      - name: Export static site
+        run: npm run export   # creates the out/ folder
+
+      - name: Check .next contents
+        run: ls -la .next
+
+      - name: Check out/ contents
+        run: ls -la out
 
       - name: Upload .next folder
         uses: actions/upload-artifact@v4
         with:
           name: next-build
-          path: .next   # change to src/.next if needed
+          path: ./.next
+
+      - name: Upload static export
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-export
+          path: ./out
+
