@@ -25,12 +25,11 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: List files after build
-        run: ls -R
+      - name: List files after build (including hidden)
+        run: ls -a
 
       - name: Upload .next folder
         uses: actions/upload-artifact@v4
         with:
           name: next-build
-          path: .next
-          
+          path: .next   # change to src/.next if needed
